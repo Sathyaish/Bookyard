@@ -64,6 +64,17 @@ class OperationResult<T>
 
 To be contd...
 
+# Known Issues: What are the incomplete or buggy features in this application known to you?
+The application was built to facilitate an article that was meant to teach the reader how to develop a secured application using Kotlin. Therefore, in the interest of time, the following compromises were made in feature completion and omission. This list is usually referred to as **known issues** in software development:
+
+ 1. [The size of the login dialog box is not fixed, and is a bit awkward.](https://github.com/Sathyaish/Bookyard/issues/1)
+ 2. [Book recommendations window needs a scrollbar](https://github.com/Sathyaish/Bookyard/issues/2)
+ 3. [Not all text on the book recommedations window is properly visible. The height of the text is less than what is should be.](https://github.com/Sathyaish/Bookyard/issues/3)
+ 4. [No way to register a new user.](https://github.com/Sathyaish/Bookyard/issues/4)
+ 5. [No way to allow an existing user to change his password.](https://github.com/Sathyaish/Bookyard/issues/5)
+ 6. [No way for an existing user to request a password reset in case they forget their password.](https://github.com/Sathyaish/Bookyard/issues/6)
+ 7. [No way for a client application to register with the server.](https://github.com/Sathyaish/Bookyard/issues/7)
+
 # What problems did you face when developing this application?
 Being a C# developer, I faced a lot of problems at each step during development. I'd done a bit of Visual J++ back in 1999. That's the Microsoft version of Java, and was also a bit familiar with the Java language. And it was easy to pick up the Kotlin language as well.
 
