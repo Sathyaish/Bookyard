@@ -33,6 +33,15 @@ Here is a list of tools I used to develop the Kotlin version of this application
  8. The jwtk/jjwt library is used for building and parsing Json Web Tokens (JWT's).
 
 # What is the workflow? In other words, what screen appears first and then what button do we click and then what other screen appears, and so on?
+The client application provides a login dialog box. The user logs in with the user name **Sathyaish** and password **FooBar**.
+
+> Since this application was written to illustrate the use of the Kotlin programming language only, its features have been kept to a bare minimum. There is no way to create a new user.
+
+
+
+Upon successful login, the login dialog disappears and a window displaying a list of books recommended for the user based on their likes appears.
+
+
 
 # How does it work?
 
@@ -85,10 +94,6 @@ Here is a list of some problems I faced during development, with the solutions:
 # How do I launch the application?
 
 
-
-The client application provides a login dialog box. The user logs in with the user name **Sathyaish** and password **FooBar**.
-
-> Since this application was written to illustrate the use of the Kotlin programming language only, its features have been kept to a bare minimum. There is no way to create a new user.
 
 The client application makes a secured Web request, i.e. an HTTPS POST request to the server at the end-point **/login**. The client packages the user name and password in a Json Web Token (JWT) that is signed with the client's *application secret*.
 
