@@ -2,7 +2,7 @@
 Bookyard is a trivial client/server application written in the Kotlin programmming language. It is written with the purpose of illustrating how to write a simple application using the Kotlin programming language and then how to secure it using Json Web Tokens (JWT's).
 
 # What does it do?
-The application is meant to return a list of book recommendations for a logged in user, based on his likes. The things that the user likes are stored on a database server.
+The application is meant to return a list of book recommendations for a logged in user, based on his likes. All the data comes from a database server.
 
 # What kind of a client and server does Bookyard have?
 The application has two parts:
