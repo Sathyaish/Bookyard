@@ -45,6 +45,24 @@ Upon successful login, the login dialog disappears and a window displaying a lis
 
 
 # How does it work?
+The client application makes a secured Web request, i.e. an HTTPS POST request to the server at the end-point **/login**. The client packages the user name and password in a Json Web Token (JWT) that is signed with the client's *application secret*.
+
+In response to a login request, the server send back a Json string with the following object structure (pseudo-code):
+
+```
+OperationResult<User> where:
+
+class User
+  public int id;
+  public string userName;
+  
+class OperationResult<T>
+  public bool successful;
+  public String? errorMessage;
+  public T? data;
+```
+
+To be contd...
 
 # What problems did you face when developing this application?
 Being a C# developer, I faced a lot of problems at each step during development. I'd done a bit of Visual J++ back in 1999. That's the Microsoft version of Java, and was also a bit familiar with the Java language. And it was easy to pick up the Kotlin language as well.
@@ -93,28 +111,6 @@ Here is a list of some problems I faced during development, with the solutions:
 # What do I need as a set-up to run this code if I download it?
 
 # How do I launch the application?
-
-
-
-The client application makes a secured Web request, i.e. an HTTPS POST request to the server at the end-point **/login**. The client packages the user name and password in a Json Web Token (JWT) that is signed with the client's *application secret*.
-
-In response to a login request, the server send back a Json string with the following object structure (pseudo-code):
-
-```
-OperationResult<User> where:
-
-class User
-  public int id;
-  public string userName;
-  
-class OperationResult<T>
-  public bool successful;
-  public String? errorMessage;
-  public T? data;
-```
-
-To be contd...
-
 
 # How can I reach you?
 If you find any errors in this application or you need help setting this application up in your environment, please [create a new issue](https://github.com/Sathyaish/Bookyard/issues) in this repository. If you would like to hire me, please reach me at Sathyaish@gmail.com.
