@@ -73,3 +73,7 @@ class OperationResult<T>
 ```
 
 To be contd...
+
+
+# How can I reach you?
+If you find any errors in this application, or would like to hire me, please reach me at Sathyaish@gmail.com.
