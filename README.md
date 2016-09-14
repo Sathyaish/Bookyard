@@ -37,10 +37,11 @@ The client application provides a login dialog box. The user logs in with the us
 
 > Since this application was written to illustrate the use of the Kotlin programming language only, its features have been kept to a bare minimum. There is no way to create a new user.
 
-
+![Bookyard login dialog](https://raw.githubusercontent.com/Sathyaish/Bookyard/master/images/BookyardLogin.png)
 
 Upon successful login, the login dialog disappears and a window displaying a list of books recommended for the user based on their likes appears.
 
+[Bookyard Recommendations Window](https://raw.githubusercontent.com/Sathyaish/Bookyard/master/images/RecommendationsWindow.png)
 
 
 # How does it work?
