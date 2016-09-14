@@ -31,7 +31,26 @@ Here is a list of tools I used to develop the Kotlin version of this application
  7. The endpoints on the server return Json responses. The Jackson library is used for serializing and deserializing objects into json string and vice-versa.
  8. The jwtk/jjwt library is used for building and parsing Json Web Tokens (JWT's).
 
-# What is the workflow? In other words, what screen appears and then what button do we click and then what other screen appears, and so on?
+# What is the workflow? In other words, what screen appears first and then what button do we click and then what other screen appears, and so on?
+
+# How does it work?
+
+# What problems did you face when developing this application?
+Being a C# developer, I faced a lot of problems at each step during development. I'd done a bit of Visual J++ back in 1999. That's the Microsoft version of Java, and was also a bit familiar with the Java language. And it was easy to pick up the Kotlin language as well.
+
+Languages are easy. It's the tools and the variety of frameworks and their quirky behavior that takes all of the time and frustration. For instance, learning about the layouts in Swing, or aligning child elements horizontally or vertically within a graphical user interface container, or getting the Java class from a Kotlin `KClass`, or finding out how to set the %CLASSPATH% or how to set static references to JAR files with each IDE, or how to use an open source Java project that had no JAR files, how to make JAR files from Java source, how to use Maven, etc. These things took me all the time that I took to develop this.
+
+Here is a list of some problems I faced during development, with the solutions:
+
+ 1. 
+ 
+
+# What do I need as a set-up to run this code if I download it?
+
+# How do I launch the application?
+
+
+
 The client application provides a login dialog box. The user logs in with the user name **Sathyaish** and password **FooBar**.
 
 > Since this application was written to illustrate the use of the Kotlin programming language only, its features have been kept to a bare minimum. There is no way to create a new user.
