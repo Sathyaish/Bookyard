@@ -111,4 +111,4 @@ To be contd...
 
 
 # How can I reach you?
-If you find any errors in this application, or would like to hire me, please reach me at Sathyaish@gmail.com.
+If you find any errors in this application or you need help setting this application up in your environment, please [create a new issue](https://github.com/Sathyaish/Bookyard/issues) in this repository. If you would like to hire me, please reach me at Sathyaish@gmail.com.
