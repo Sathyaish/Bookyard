@@ -7,7 +7,12 @@ The application is meant to return a list of book recommendations for a logged i
 # What kind of a client and server does Bookyard have?
 The application has two parts:
  1. A desktop application; and
- 2. A web application that acts as a Web API. The web application gets data from a database.
+ 2. A web application that acts as a Web API. The endpoints return Json responses. The web application gets data from a database.
+
+# What are the modules in the project and what do they do?
+ 1. Server: Embodies the HTTP Servlet API and its helper classes.
+ 2. Client: Embodies the Swing desktop application.
+ 3. Contracts : Embodies the types used to send and receive data between the client and the server.
 
 # What are the technologies used to build it?
  1. The desktop application is built using the Swing/AWT API (java.swing._*_, java.awt._*_).
