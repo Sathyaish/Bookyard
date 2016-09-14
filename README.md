@@ -26,6 +26,7 @@ Here is a list of tools I used to develop the Kotlin version of this application
  2. The web application is built using HTTP Servlets (javax.servlets .http.*)
  3. The application server is Apache Tomcat 8.0.x
  4. The database used is Microsoft SQL Server 2012.
+ 5. JDBC is used for database connectivity.
  5. The programming language is Kotlin.
  6. The IDE used is IntelliJ IDEA Ultimate Edition. I tried building this with Eclipse first. Though there is a Kotlin plug-in for Eclipse, the experience building with that plug-in is not that great. That's because there is little to no intellisense available for Kotlin when using the Eclipse plug-in. And the compilation / build process does not output the `.class` files to a location that you as a developer know about. It publishes the `.class` files to an internal folder it uses, which is no good because then you can't set that path as the %CLASSPATH% because you don't know where that location is.
  7. The endpoints on the server return Json responses. The Jackson library is used for serializing and deserializing objects into json string and vice-versa.
