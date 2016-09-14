@@ -144,7 +144,7 @@ public class BookRecommendationsFrame(var accessToken : String?) : JFrame() {
 
         try
         {
-            val recommendationsUrl : String = Constants().securedRecommendationsUrl;
+            val recommendationsUrl : String = Constants().recommendationsUrl;
 
             val authorizationHeaderKey : String = "Authorization";
             val authorizationHeaderValue : String = "Bearer ${accessToken}";

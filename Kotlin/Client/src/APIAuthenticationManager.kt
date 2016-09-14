@@ -32,7 +32,7 @@ public class APIAuthenticationManager : IAuthenticationManager<String> {
                     .compact();
 
             // make a POST web request sending the jwt in the request body
-            val loginUrl : String? = Constants().securedLoginUrl;
+            val loginUrl : String? = Constants().loginUrl;
             val body : String? = "appId=" + appId + "&token=" + jwt;
             val responseString : String? = WebRequest().Post(loginUrl, body);
 
