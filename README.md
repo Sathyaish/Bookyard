@@ -41,7 +41,7 @@ The client application provides a login dialog box. The user logs in with the us
 
 Upon successful login, the login dialog disappears and a window displaying a list of books recommended for the user based on their likes appears.
 
-[Bookyard Recommendations Window](https://raw.githubusercontent.com/Sathyaish/Bookyard/master/images/RecommendationsWindow.png)
+![Bookyard Recommendations Window](https://raw.githubusercontent.com/Sathyaish/Bookyard/master/images/RecommendationsWindow.png)
 
 
 # How does it work?
