@@ -1,0 +1,16 @@
+# SQL Server files
+*.mdf
+*.ldf
+
+# Eclipse .metadata folder and its contents
+.metadata/
+
+# Eclipse .recommenders folder and its contents
+.recommenders/
+
+# IntelliJ output files
+[Oo]ut/
+
+# bin and output files
+bin/
+build/
