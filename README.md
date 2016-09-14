@@ -2,7 +2,7 @@
 
 A client/server application written in the Kotlin programmming language. This application was written to demonstrate how to write an application using the Kotlin programming language and to secure it using Json Web Tokens (JWT's).
 
-The client is a desktop application made using Swing/AWT (java.swing.*, java.awt.*).
+The client is a desktop application made using Swing/AWT (java.swing._*_, java.awt._*_).
 
 The server is an HTTP Servlet application. The endpoints on the server return Json responses.
 
