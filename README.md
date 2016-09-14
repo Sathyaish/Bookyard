@@ -124,4 +124,4 @@ Here is a list of some problems I faced during development, with the solutions:
 # How do I launch the application?
 
 # How can I reach you?
-If you find any errors in this application or you need help setting this application up in your environment, please [create a new issue](https://github.com/Sathyaish/Bookyard/issues) in this repository. If you would like to hire me, please reach me at Sathyaish@gmail.com.
+If you find any errors in this application other than the ones listed in the [Known Issues](https://github.com/Sathyaish/Bookyard/#known-issues-what-are-the-incomplete-or-buggy-features-in-this-application-known-to-you) section of this document, or you need help setting this application up in your environment, please [create a new issue](https://github.com/Sathyaish/Bookyard/issues) in this repository. If you would like to hire me, please reach me at Sathyaish@gmail.com.
