@@ -42,8 +42,16 @@ Languages are easy. It's the tools and the variety of frameworks and their quirk
 
 Here is a list of some problems I faced during development, with the solutions:
 
- 1. 
- 
+ 1. [Could you please explain this piece of code in terms of C# code?](http://stackoverflow.com/q/39010222/303685)
+ 2. [What exactly is a dense array?](http://stackoverflow.com/q/39030196/303685)
+ 3. [Can a covariant type parameter be in an input position in the constructor?](http://stackoverflow.com/q/39061831/303685)
+ 4. [How to create a Java Servlet application in IntelliJ IDEA Community Edition with Java EE 7 and Glassfish 4?](http://stackoverflow.com/q/39072303/303685)
+ 5. [How to create a servlet using Eclipse Version: Mars.1 Release (4.5.1)?](http://stackoverflow.com/q/39073274/303685)
+ 6. [Some questions from a .NET developer about running Java programs in Eclipse](http://stackoverflow.com/q/39075568/303685)
+ 7. [How to have Eclipse intellisense autocomplete member names?](http://stackoverflow.com/q/39076868/303685)
+ 8. [Why don't you have to add an import statement for the java.lang.Runnable interface?](http://stackoverflow.com/q/39142076/303685)
+ 9. [How to rename a variable in Eclipse JEE Mars 2?](http://stackoverflow.com/q/39142777/303685)
+
 
 # What do I need as a set-up to run this code if I download it?
 
