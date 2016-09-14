@@ -15,7 +15,7 @@ The application has two parts:
  3. Contracts : Embodies the types used to send and receive data between the client and the server.
 
 # What technologies did you use to develop this application?
-I am a C# developer so all of this was new to me. In order to localize complexity, I first learn the Kotlin language, then wrote a few trivial programs with it of the order of adding the elements of an array or using companion objects, object declarations, property setters and getters, read-only properties, and the like. Then, I  wrote the application in Java first, and then translated each line in Kotlin to arrive at the Kotlin implementation.
+I am a C# developer so all of this was new to me. In order to localize complexity, I first learnt the Kotlin language over a week or so, then wrote a few trivial programs with it of the order of adding the elements of an array or using companion objects, object declarations, property setters and getters, read-only properties, and the like. Then, I  wrote the application in Java first, and then translated each line in Kotlin to arrive at the Kotlin implementation.
 
 The source code for the Java application is in the folder named **Java** at the project root. The **Kotlin** folder has the same application written in Kotlin. The **db** folder has the database script. If you want to run the application, you'll need to feed this database script to a Microsoft SQL Server database.
 
