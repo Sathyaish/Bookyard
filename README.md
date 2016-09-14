@@ -14,7 +14,14 @@ The application has two parts:
  2. Client: Embodies the Swing desktop application.
  3. Contracts : Embodies the types used to send and receive data between the client and the server.
 
-# What are the technologies used to build it?
+# What technologies did you use to develop this application?
+I am a C# developer so all of this was new to me. In order to localize complexity, I first learn the Kotlin language, then wrote a few trivial programs with it of the order of adding the elements of an array or using companion objects, object declarations, property setters and getters, read-only properties, and the like. Then, I  wrote the application in Java first, and then translated each line in Kotlin to arrive at the Kotlin implementation.
+
+The source code for the Java application is in the folder named **Java** at the project root. The **Kotlin** folder has the same application written in Kotlin. The **db** folder has the database script. If you want to run the application, you'll need to feed this database script to a Microsoft SQL Server database.
+
+I wrote the Java version using the Eclipse for Java EE, Mars 2 IDE. With the exception of this, everything else I used to write the Java version was the same as that I used to write the Kotlin version.
+
+Here is a list of tools I used to develop the Kotlin version of this application:
  1. The desktop application is built using the Swing/AWT API (java.swing._*_, java.awt._*_).
  2. The web application is built using HTTP Servlets (javax.servlets .http.*)
  3. The application server is Apache Tomcat 8.0.x
