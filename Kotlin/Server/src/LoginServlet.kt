@@ -92,12 +92,6 @@ open class LoginServlet : HttpServlet() {
                     println(k + ": " + v);
                 }
 
-                /*for(Map.Entry<String, Object> entry : body.entrySet())
-                {
-                    System.out.println(entry.getKey() + ": " + entry.getValue());
-                }*/
-
-                // if it is not of type LoginRequest, send failure, Bad Request: Invalid request subject.
                 if (!body.get("sub").toString().contentEquals(Constants().JWT_SUBJECT_LOGIN_REQUEST))
                 {
                     val result : OperationResult<String> = OperationResult<String>(false, "Bad request format. Invalid subject.", null);
