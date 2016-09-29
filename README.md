@@ -37,13 +37,43 @@ The client application provides a login dialog box. The user logs in with the us
 
 > Since this application was written to illustrate the use of the Kotlin programming language only, its features have been kept to a bare minimum. There is no way to create a new user.
 
-
+![Bookyard login dialog](https://raw.githubusercontent.com/Sathyaish/Bookyard/master/images/BookyardLogin.png)
 
 Upon successful login, the login dialog disappears and a window displaying a list of books recommended for the user based on their likes appears.
 
+![Bookyard Recommendations Window](https://raw.githubusercontent.com/Sathyaish/Bookyard/master/images/RecommendationsWindow.png)
 
 
 # How does it work?
+The client application makes a secured Web request, i.e. an HTTPS POST request to the server at the end-point **/login**. The client packages the user name and password in a Json Web Token (JWT) that is signed with the client's *application secret*.
+
+In response to a login request, the server send back a Json string with the following object structure (pseudo-code):
+
+```
+OperationResult<User> where:
+
+class User
+  public int id;
+  public string userName;
+  
+class OperationResult<T>
+  public bool successful;
+  public String? errorMessage;
+  public T? data;
+```
+
+To be contd...
+
+# Known Issues: What are the incomplete or buggy features in this application known to you?
+The application was built to facilitate an article that was meant to teach the reader how to develop a secured application using Kotlin. Therefore, in the interest of time, the following compromises were made in feature completion and omission. This list is usually referred to as **known issues** in software development:
+
+ 1. [The size of the login dialog box is not fixed, and is a bit awkward.](https://github.com/Sathyaish/Bookyard/issues/1)
+ 2. [Book recommendations window needs a scrollbar](https://github.com/Sathyaish/Bookyard/issues/2)
+ 3. [Not all text on the book recommedations window is properly visible. The height of the text is less than what is should be.](https://github.com/Sathyaish/Bookyard/issues/3)
+ 4. [No way to register a new user.](https://github.com/Sathyaish/Bookyard/issues/4)
+ 5. [No way to allow an existing user to change his password.](https://github.com/Sathyaish/Bookyard/issues/5)
+ 6. [No way for an existing user to request a password reset in case they forget their password.](https://github.com/Sathyaish/Bookyard/issues/6)
+ 7. [No way for a client application to register with the server.](https://github.com/Sathyaish/Bookyard/issues/7)
 
 # What problems did you face when developing this application?
 Being a C# developer, I faced a lot of problems at each step during development. I'd done a bit of Visual J++ back in 1999. That's the Microsoft version of Java, and was also a bit familiar with the Java language. And it was easy to pick up the Kotlin language as well.
@@ -93,27 +123,5 @@ Here is a list of some problems I faced during development, with the solutions:
 
 # How do I launch the application?
 
-
-
-The client application makes a secured Web request, i.e. an HTTPS POST request to the server at the end-point **/login**. The client packages the user name and password in a Json Web Token (JWT) that is signed with the client's *application secret*.
-
-In response to a login request, the server send back a Json string with the following object structure (pseudo-code):
-
-```
-OperationResult<User> where:
-
-class User
-  public int id;
-  public string userName;
-  
-class OperationResult<T>
-  public bool successful;
-  public String? errorMessage;
-  public T? data;
-```
-
-To be contd...
-
-
 # How can I reach you?
-If you find any errors in this application or you need help setting this application up in your environment, please [create a new issue](https://github.com/Sathyaish/Bookyard/issues) in this repository. If you would like to hire me, please reach me at Sathyaish@gmail.com.
+If you find any errors in this application other than the ones listed in the [Known Issues](https://github.com/Sathyaish/Bookyard/#known-issues-what-are-the-incomplete-or-buggy-features-in-this-application-known-to-you) section of this document, or you need help setting this application up in your environment, please [create a new issue](https://github.com/Sathyaish/Bookyard/issues) in this repository. If you would like to hire me, please reach me at Sathyaish@gmail.com.
